@@ -34,7 +34,7 @@ const genratePassword = function () {
       pass += getLowerCase();
     }
     if (upperCheck.checked) {
-      pass += getLowerCase();
+      pass += getUpperCase();
     }
     if (symbolsCheck.checked) {
       pass += getSymbols();
