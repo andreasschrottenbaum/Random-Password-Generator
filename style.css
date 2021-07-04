@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap");
+
 * {
   font-family: "Fira Code", monospace;
   background: #f3f3f3;
 }
+
 .center {
   position: absolute;
   top: 50%;
@@ -19,6 +21,8 @@
 }
 
 .psw {
+  display: inline-block;
+  min-width: 200px;
   border: 2px dashed black;
   padding: 5px;
 }

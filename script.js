@@ -26,6 +26,7 @@ const getNumbers = function () {
 const getSymbols = function () {
   return symbols[Math.trunc(Math.random() * symbols.length)];
 };
+
 const genratePassword = function () {
   let lenNum = Number(inputLen.value);
   let pass = "";
@@ -43,8 +44,10 @@ const genratePassword = function () {
       pass += getNumbers();
     }
   }
-  return pass.substring(0, lenNum + 1);
+
+  return pass.substring(0, lenNum);
 };
+
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   if (inputLen.value === undefined) {
