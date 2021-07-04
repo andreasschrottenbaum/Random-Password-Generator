@@ -58,5 +58,4 @@ form.addEventListener("submit", function (e) {
   } else {
     password.textContent = genratePassword();
   }
-  inputLen.value = "";
 });
