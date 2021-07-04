@@ -7,7 +7,7 @@ const password = document.querySelector(".psw");
 const form = document.querySelector(".form");
 
 let lower = "abcdefghijklmnopqrstuvwxyz";
-let upper = lower.toUpperCase();
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let number = "0123456789";
 let symbols = "!@#$%^&*()_+=";
 
